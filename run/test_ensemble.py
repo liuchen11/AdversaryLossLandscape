@@ -36,7 +36,7 @@ if __name__ == '__main__':
     parser.add_argument('--out_file', type = str, default = None,
         help = 'The output file, default = None')
     parser.add_argument('--attack', action = DictParser, default = None,
-        help = 'Play adversarial attack or not, default = None, template is step_size=XXX,threshold=XXX,iter_num=XXX,adaptive=XXX,random_step_size=XXX,order=XXX')
+        help = 'Play adversarial attack or not, default = None')
 
     parser.add_argument('--gpu', type = str, default = None,
         help = 'Specify the GPU to use, default = None')

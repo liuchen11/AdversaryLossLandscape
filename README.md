@@ -1,7 +1,7 @@
 Code for NeurIPS 2020 Paper ["On the Loss Landscape of Adversarial Training: Identifying Challenges and How to Overcome Them"](https://arxiv.org/pdf/2006.08403).
 Suitable to run on NVIDIA GPU machines.
 
-## Requirement
+## Requirements
 
 ```
 python = 3.7
@@ -100,7 +100,7 @@ Please contact Chen Liu (chen.liu@epfl.ch) regarding this repository.
 ## Citation
 
 ```
-@inproceedings{li2018visualizing,
+@inproceedings{liu2020loss,
   title={On the Loss Landscape of Adversarial Training: Identifying Challenges and How to Overcome Them},
   author={Liu, Chen and Salzmann, Mathieu and Lin, Tao and Tomioka, Ryota and S{\"u}sstrunk, Sabine},
   booktitle={Advances in Neural Information Processing Systems},

@@ -24,7 +24,7 @@ def parse_attacker(name, **kwargs):
         print(h_message)
         exit(0)
     elif name.lower() in ['pgd',]:
-        return PGDForTest(**kwargs)
+        return PGD(**kwargs)
     elif name.lower() in ['apgd',]:
         return APGD(**kwargs)
     elif name.lower() in ['square',]:
